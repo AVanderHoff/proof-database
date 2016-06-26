@@ -1,11 +1,11 @@
-# proof-database
+# Proof-Database
 
-#### converts standard text into Tex Mathematical Typesetting.
-#### ability to search various Stack Exchange sites by topic
-#### ability to save in database
-#### editing and deleting disabled, If you would like me to reenable it
+#### Converts standard text into Tex Mathematical Typesetting.
+#### Ability to search various Stack Exchange sites by topic.
+#### Ability to save in  Firebase database.
+#### Editing and deleting disabled. If you would like me to reenable it
 #### temporarily for demo purposes let me know.
-####technologies: Javascript, Firebase, MathJax API , StackExchange API, Bootsrap , HTML ,CSS 
+####Technologies: Javascript, Firebase, MathJax API , StackExchange API, Bootsrap , HTML ,CSS 
 
 ###[Working App](http://proof-database.herokuapp.com/)
 
