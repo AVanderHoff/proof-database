@@ -279,8 +279,8 @@
         var div3 = $('<div class="modal-content">');
         var div4 = $('<div class="modal-body" id"' + (now2 + 1) + '" >');
         var div5 = $('<div class="modal-footer">');
-      //  var buttonEdit = $('<button class="edit btn btn-default" data-key="' + key + '" data-id="' + now2 + '" data-dismiss="modal" >Edit</button>');
-      //  var buttonDelete = $('<button class="delete btn btn-default" data-key="' + key + '" data-id="' + now2 + '" data-dismiss="modal">Delete</button>');
+        var buttonEdit = $('<button class="edit btn btn-default" data-key="' + key + '" data-id="' + now2 + '" data-dismiss="modal" >Edit</button>');
+        var buttonDelete = $('<button class="delete btn btn-default" data-key="' + key + '" data-id="' + now2 + '" data-dismiss="modal">Delete</button>');
 
         div5.append(buttonEdit);
         div5.append(buttonDelete);
@@ -303,7 +303,7 @@
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, modalvar + 1]);
 
     });
-
+/*
     // delete row
     $(document).on('click', '.delete ', function() {
 
@@ -378,6 +378,8 @@
           });
 
       });
+
+      */
 
 // tex stack exchange search
   $('#tex-stack-exchange').on('click',function(){
